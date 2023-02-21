@@ -1,1 +1,9 @@
-<p>foxview works!</p>
+<h1>Foxes viewer</h1>
+
+<div>
+  <input type="button" value="reload" (click)="reload()">
+</div>
+
+<div>
+  <img [src]="fox?.image" alt="no image available">
+</div>
